@@ -1,0 +1,9 @@
+# Track only the Linux setup/launch scripts. Everything else here (game files, Wine prefix,
+# .NET SDK, downloads, upstream source checkouts, logs) is downloaded or generated.
+/*
+!/.gitignore
+!/README.md
+!/start-daoc.sh
+!/scripts/
+__pycache__/
+*.pyc
